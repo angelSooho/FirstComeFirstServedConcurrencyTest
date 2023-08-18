@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: local
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+kafka:
+  host: "localhost:"
+  port: 2881
